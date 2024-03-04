@@ -5,7 +5,6 @@
   "author": "Victor Manuel Rangel Mejia",
   "date": "2024-03-03",
   "description": "Portafolio de Victor Manuel Rangel Mejia",
-  "homepage": "https://victoMR.github.io/portafolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
@@ -28,7 +27,6 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
