@@ -31,3 +31,20 @@
   color: #dcfce7;
   transition: color 0.3s ease-in-out;
 }
+
+/* Estilos para el botón Scroll to Top */
+.icon-scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-scroll-top:hover {
+  background-color: #0056b3;
+}
