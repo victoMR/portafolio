@@ -2,6 +2,9 @@
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
+  "author": "Victor Manuel Rangel Mejia",
+  "date": "2024-03-03",
+  "description": "Portafolio de Victor Manuel Rangel Mejia",
   "homepage": "https://victoMR.github.io/portafolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
