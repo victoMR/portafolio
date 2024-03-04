@@ -45,8 +45,7 @@ const Projects = () => {
   const projectsData = [
     {
       title: "Reconocimiento Facial con Raspberry PI 5",
-      imageSrc:
-        "https://private-user-images.githubusercontent.com/77412296/304590058-ba3cc042-f153-4a3a-9b0a-ceef630c537e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk1MzYxNDMsIm5iZiI6MTcwOTUzNTg0MywicGF0aCI6Ii83NzQxMjI5Ni8zMDQ1OTAwNTgtYmEzY2MwNDItZjE1My00YTNhLTliMGEtY2VlZjYzMGM1MzdlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzA0VDA3MDQwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE3ZWZkYTUzMmVmODQ1ZjhkYjY0MzQ0YzAxZmQ5OTY3NGJmMGE1N2I0MDg1ZDQ5NmE2ODczYzVmZGMzM2VlYjUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.-xoosqhHCw_vS5jsnEDlif5I0bhsq05JOQhh_11ekU0",
+      imageSrc: process.env.PUBLIC_URL + "/img/proyect1.png",
       description: "Reconocimiento biométrico para ingreso universitario.",
       technologies: [
         {
