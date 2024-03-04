@@ -1,0 +1,131 @@
+/* Estilos para PC */
+.card {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  color: #555;
+}
+
+h2 {
+  color: #333;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center projects on smaller screens */
+}
+
+.project {
+  width: 100%; /* Full width on small screens, adjust as needed */
+  max-width: 450px; /* Maximum width for larger screens */
+  margin: 20px;
+  user-select: none;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.659);
+  cursor: grab;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+.card-text {
+  color: #555;
+  margin: 0;
+}
+
+.technologies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.technology-badge {
+  margin: 5px; /* Adjust the margin as needed */
+}
+
+.technology-badge svg {
+  transform: rotate(45deg);
+}
+
+.technology-badge:hover {
+  transform: scale(1.05);
+}
+.goToGit{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+
+}
+
+/* Estilos para móviles */
+/* Estilos base */
+@media (max-width: 768px) {
+  .card {
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .project {
+    width: 100%;
+
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+  }
+  .technologies {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+    margin-left: 40px;
+
+  }
+  
+  .technology-badge {
+    margin: 10px; /* Adjust the margin as needed */
+  }
+
+  .goToGit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+}
