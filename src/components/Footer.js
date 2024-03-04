@@ -61,7 +61,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faEnvelope} className="icon" />
           </a>
           <a
-            href="/path/to/your/resume.pdf"
+            href= { process.env.PUBLIC_URL + "/docs/Curriculum Vitae VMRM.pdf" }
             target="_blank"
             rel="noopener noreferrer">
             <FontAwesomeIcon
