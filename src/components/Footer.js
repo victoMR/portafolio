@@ -52,7 +52,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faLinkedin} className="icon" />
           </a>
           <a
-            href="https://github.com/victorrangelm/"
+            href="https://github.com/victoMR"
             target="_blank"
             rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} className="icon" />
